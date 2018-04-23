@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74524095-935d-403b-bf7d-6f94ebb0bf26" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/gaal/gergo/packagericebags/PackageRiceBags.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/gaal/gergo/packagericebags/PackageRiceBagsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/gaal/gergo/packagericebags/PackageRiceBags.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/gaal/gergo/packagericebags/PackageRiceBags.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/gaal/gergo/packagericebags/PackageRiceBagsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/gaal/gergo/packagericebags/PackageRiceBagsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,8 +35,11 @@
       <file leaf-file-name="PackageRiceBags.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/gaal/gergo/packagericebags/PackageRiceBags.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            <state relative-caret-position="483">
+              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,8 +47,8 @@
       <file leaf-file-name="PackageRiceBagsTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/github/gaal/gergo/packagericebags/PackageRiceBagsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+            <state relative-caret-position="332">
+              <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -190,7 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PackageRiceBagsTest.returnTrue">
+  <component name="RunManager" selected="JUnit.PackageRiceBagsTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -308,9 +309,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PackageRiceBagsTest.returnTrue" />
         <item itemvalue="JUnit.PackageRiceBagsTest" />
         <item itemvalue="JUnit.PackageRiceBagsTest.returnFalse" />
+        <item itemvalue="JUnit.PackageRiceBagsTest.returnTrue" />
       </list>
     </recent_temporary>
   </component>
@@ -333,44 +334,44 @@
       <workItem from="1524482172976" duration="1044000" />
       <workItem from="1524483345512" duration="3468000" />
       <workItem from="1524487219793" duration="49000" />
-      <workItem from="1524487293446" duration="2773000" />
+      <workItem from="1524487293446" duration="7640000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PackageRiceBagsTest_returnFalse - 2018.04.23 at 14h 31m 34s.xml">
-      <configuration name="PackageRiceBagsTest.returnFalse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PackageRiceBagsTest_returnTrue - 2018.04.23 at 14h 31m 51s.xml">
-      <configuration name="PackageRiceBagsTest.returnTrue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PackageRiceBagsTest_returnTrue - 2018.04.23 at 14h 34m 44s.xml">
-      <configuration name="PackageRiceBagsTest.returnTrue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PackageRiceBagsTest_returnTrue - 2018.04.23 at 14h 36m 41s.xml">
-      <configuration name="PackageRiceBagsTest.returnTrue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PackageRiceBagsTest_returnTrue - 2018.04.23 at 14h 42m 45s.xml">
-      <configuration name="PackageRiceBagsTest.returnTrue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PackageRiceBagsTest_returnTrue - 2018.04.23 at 14h 44m 19s.xml">
-      <configuration name="PackageRiceBagsTest.returnTrue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PackageRiceBagsTest_returnTrue - 2018.04.23 at 14h 46m 34s.xml">
-      <configuration name="PackageRiceBagsTest.returnTrue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PackageRiceBagsTest - 2018.04.23 at 14h 47m 09s.xml">
+    <history-entry file="PackageRiceBagsTest - 2018.04.23 at 16h 52m 50s.xml">
       <configuration name="PackageRiceBagsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PackageRiceBagsTest_returnTrue - 2018.04.23 at 16h 48m 02s.xml">
+    <history-entry file="PackageRiceBagsTest - 2018.04.23 at 16h 53m 20s.xml">
+      <configuration name="PackageRiceBagsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PackageRiceBagsTest_returnTrue - 2018.04.23 at 16h 53m 54s.xml">
       <configuration name="PackageRiceBagsTest.returnTrue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PackageRiceBagsTest_returnTrue - 2018.04.23 at 16h 51m 26s.xml">
+    <history-entry file="PackageRiceBagsTest_returnTrue - 2018.04.23 at 16h 54m 05s.xml">
       <configuration name="PackageRiceBagsTest.returnTrue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PackageRiceBagsTest - 2018.04.23 at 22h 51m 05s.xml">
+      <configuration name="PackageRiceBagsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PackageRiceBagsTest - 2018.04.23 at 22h 51m 43s.xml">
+      <configuration name="PackageRiceBagsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PackageRiceBagsTest - 2018.04.23 at 22h 52m 14s.xml">
+      <configuration name="PackageRiceBagsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PackageRiceBagsTest - 2018.04.23 at 22h 53m 05s.xml">
+      <configuration name="PackageRiceBagsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PackageRiceBagsTest - 2018.04.23 at 22h 53m 24s.xml">
+      <configuration name="PackageRiceBagsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PackageRiceBagsTest - 2018.04.23 at 22h 54m 21s.xml">
+      <configuration name="PackageRiceBagsTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10845000" />
+    <option name="totallyTimeSpent" value="15712000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1066" extended-state="6" />
@@ -424,6 +425,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -584,15 +588,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/gaal/gergo/packagericebags/PackageRiceBags.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="483">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/github/gaal/gergo/packagericebags/PackageRiceBagsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+        <state relative-caret-position="332">
+          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

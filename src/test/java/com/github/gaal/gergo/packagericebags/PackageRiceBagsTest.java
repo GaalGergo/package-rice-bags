@@ -10,26 +10,18 @@ public class PackageRiceBagsTest {
     @Test
     public void returnTrue(){
 
-        Boolean actual = false;
+        Boolean actual = packageRiceBags.packageRice(2, 1, 6);
 
-        if (packageRiceBags.packageRice(1, 1, 6)) {
-            actual = true;
-        }
-
-        Assert.assertEquals(actual,packageRiceBags.packageRice(1,1,6));
+        Assert.assertEquals(actual,packageRiceBags.packageRice(2,1,6));
 
     }
 
     @Test
     public void returnFalse(){
 
-        Boolean actual = true;
+        Boolean actual = packageRiceBags.packageRice(2, 3, 9);
 
-        if (packageRiceBags.packageRice(1, 1, 8)) {
-            actual = true;
-        }
-
-        Assert.assertEquals(actual,packageRiceBags.packageRice(1,1,6));
+        Assert.assertEquals(actual,packageRiceBags.packageRice(2,3,6));
 
     }
 }
