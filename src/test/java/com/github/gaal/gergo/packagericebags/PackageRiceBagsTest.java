@@ -9,19 +9,29 @@ public class PackageRiceBagsTest {
 
     @Test
     public void returnTrue(){
+        Assert.assertTrue(packageRiceBags.packageRice(2,2,6));
+    }
+    @Test
+    public void returnTrue2(){
+        Assert.assertTrue(packageRiceBags.packageRice(2,1,11));
+    }
 
-        Boolean actual = packageRiceBags.packageRice(2, 1, 6);
-
-        Assert.assertEquals(actual,packageRiceBags.packageRice(2,1,6));
-
+    @Test
+    public void returnTrue3(){
+        Assert.assertTrue(packageRiceBags.packageRice(2,3,13));
     }
 
     @Test
     public void returnFalse(){
+        Assert.assertFalse(packageRiceBags.packageRice(2,0,6));
+    }
+    @Test
+    public void returnFalse2(){
+        Assert.assertFalse(packageRiceBags.packageRice(2,1,12));
+    }
 
-        Boolean actual = packageRiceBags.packageRice(2, 3, 9);
-
-        Assert.assertEquals(actual,packageRiceBags.packageRice(2,3,6));
-
+    @Test
+    public void returnFalse3(){
+        Assert.assertFalse(packageRiceBags.packageRice(1,9,15));
     }
 }
